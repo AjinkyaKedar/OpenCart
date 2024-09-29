@@ -1,0 +1,47 @@
+18:00:35.577 [main] INFO  org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.FailedReporter@7859e786: 63 ms
+18:00:35.623 [main] INFO  org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.XMLReporter@4f8969b0: 37 ms
+18:00:35.630 [main] INFO  org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6bab2585: 6 ms
+18:00:35.637 [main] INFO  org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7cbee484: 6 ms
+18:00:35.637 [main] INFO  org.testng.internal.Utils [TestNG] Time taken by org.testng.internal.ExitCodeListener@7f811d00: 0 ms
+18:01:43.835 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.839 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+18:01:43.841 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.841 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.841 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.842 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.842 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.842 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.846 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+18:01:43.857 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+18:01:43.858 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.858 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.859 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.859 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.859 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.859 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.862 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.862 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.862 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.862 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.864 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.864 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.865 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.865 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.866 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+18:01:43.866 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.868 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.868 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.868 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:01:43.868 [main] INFO  org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:01:43.893 [main] INFO  org.testng.internal.Utils [TestNG] Running:
+  C:\Users\ajink\AppData\Local\Temp\testng-eclipse-1101937106\testng-customsuite.xml
+
+18:01:43.914 [main] INFO  org.testng.internal.Utils [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+18:02:20.020 [main] INFO  testCases.TC_001_AccountRegistrationTest ***** Starting TC001_AccountRegistrationTest  ****
+18:02:20.289 [main] INFO  testCases.TC_001_AccountRegistrationTest Clicked on MyAccount Link.. 
+18:02:20.812 [main] INFO  testCases.TC_001_AccountRegistrationTest Clicked on Register Link.. 
+18:02:20.816 [main] INFO  testCases.TC_001_AccountRegistrationTest Providing customer details...
+18:02:22.147 [main] INFO  testCases.TC_001_AccountRegistrationTest Validating expected message..
+18:02:22.197 [main] INFO  testCases.TC_001_AccountRegistrationTest Test passed
+18:02:22.197 [main] INFO  testCases.TC_001_AccountRegistrationTest ***** Finished TC001_AccountRegistrationTest *****
+18:02:24.045 [main] INFO  org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.jq.Main@2216effc: 142 ms
