@@ -1,0 +1,4 @@
+testCases\TC_004_SearchProductTest.class
+pageObjects\ShoppingCartPage.class
+testCases\TC_005_AddToCartPageTest.class
+pageObjects\SearchPage.class

@@ -1,37 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-28T19:01:49 IST" name="Suite" finished-at="2024-09-28T19:02:19 IST" duration-ms="29571">
+  <suite started-at="2024-10-01T19:52:49 IST" name="Suite" finished-at="2024-10-01T19:53:31 IST" duration-ms="41867">
     <groups>
+      <group name="regression">
+        <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5f7b97da]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@4b9df8a]" name="test_Login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@68044f4]" name="test_Login" class="testCases.TC_002_LoginTest"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@4b9df8a]" name="test_Login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5f7b97da]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_LoginTest.test_Login()[pri:0, instance:testCases.TC_002_LoginTest@68044f4]" name="test_Login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_004_SearchProductTest.verify_pruductSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@315f43d5]" name="verify_pruductSearch" class="testCases.TC_004_SearchProductTest"/>
+        <method signature="TC_005_AddToCartPageTest.verify_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@68fa0ba8]" name="verify_addToCart" class="testCases.TC_005_AddToCartPageTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-09-28T19:01:49 IST" name="Test" finished-at="2024-09-28T19:02:19 IST" duration-ms="29571">
-      <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginTest@4b9df8a]" started-at="2024-09-28T19:01:49 IST" name="setup" finished-at="2024-09-28T19:01:54 IST" duration-ms="4795" status="PASS">
+    <test started-at="2024-10-01T19:52:49 IST" name="Test" finished-at="2024-10-01T19:53:31 IST" duration-ms="41867">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5f7b97da]" started-at="2024-10-01T19:52:49 IST" name="setup" finished-at="2024-10-01T19:52:54 IST" duration-ms="4264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_LoginTest@4b9df8a]" started-at="2024-09-28T19:01:54 IST" name="test_Login" finished-at="2024-09-28T19:01:55 IST" duration-ms="1237" status="PASS">
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5f7b97da]" started-at="2024-10-01T19:52:54 IST" name="test_account_Registration" finished-at="2024-10-01T19:52:57 IST" duration-ms="3707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5f7b97da]" started-at="2024-10-01T19:52:57 IST" name="tearDown" finished-at="2024-10-01T19:52:58 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginTest@68044f4]" started-at="2024-10-01T19:52:58 IST" name="setup" finished-at="2024-10-01T19:53:00 IST" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_LoginTest@68044f4]" started-at="2024-10-01T19:53:00 IST" name="test_Login" finished-at="2024-10-01T19:53:01 IST" duration-ms="1434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@4b9df8a]" started-at="2024-09-28T19:01:55 IST" name="tearDown" finished-at="2024-09-28T19:01:56 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@68044f4]" started-at="2024-10-01T19:53:01 IST" name="tearDown" finished-at="2024-10-01T19:53:02 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_002_LoginTest -->
-      <class name="testCases.TC_003_LoginDDT">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_003_LoginDDT@5f7b97da]" started-at="2024-09-28T19:01:56 IST" name="setup" finished-at="2024-09-28T19:01:58 IST" duration-ms="2188" status="PASS">
+      <class name="testCases.TC_005_AddToCartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_005_AddToCartPageTest@68fa0ba8]" started-at="2024-10-01T19:53:28 IST" name="setup" finished-at="2024-10-01T19:53:29 IST" duration-ms="1880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5f7b97da]" started-at="2024-09-28T19:02:00 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-28T19:02:02 IST" duration-ms="1659" status="PASS">
+        <test-method signature="verify_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@68fa0ba8]" started-at="2024-10-01T19:53:29 IST" name="verify_addToCart" finished-at="2024-10-01T19:53:31 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_addToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_AddToCartPageTest@68fa0ba8]" started-at="2024-10-01T19:53:31 IST" name="tearDown" finished-at="2024-10-01T19:53:31 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_005_AddToCartPageTest -->
+      <class name="testCases.TC_004_SearchProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_004_SearchProductTest@315f43d5]" started-at="2024-10-01T19:53:23 IST" name="setup" finished-at="2024-10-01T19:53:27 IST" duration-ms="3420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_pruductSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@315f43d5]" started-at="2024-10-01T19:53:27 IST" name="verify_pruductSearch" finished-at="2024-10-01T19:53:27 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_pruductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_SearchProductTest@315f43d5]" started-at="2024-10-01T19:53:27 IST" name="tearDown" finished-at="2024-10-01T19:53:28 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_004_SearchProductTest -->
+      <class name="testCases.TC_003_LoginDDT">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_003_LoginDDT@52d239ba]" started-at="2024-10-01T19:53:02 IST" name="setup" finished-at="2024-10-01T19:53:04 IST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@52d239ba]" started-at="2024-10-01T19:53:05 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-10-01T19:53:07 IST" duration-ms="1580" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5f7b97da]" started-at="2024-09-28T19:02:02 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-28T19:02:03 IST" duration-ms="1642" status="FAIL">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@52d239ba]" started-at="2024-10-01T19:53:07 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-10-01T19:53:09 IST" duration-ms="1669" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -119,7 +167,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5f7b97da]" started-at="2024-09-28T19:02:04 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-28T19:02:05 IST" duration-ms="1709" status="FAIL">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@52d239ba]" started-at="2024-10-01T19:53:09 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-10-01T19:53:10 IST" duration-ms="1650" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -186,7 +234,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5f7b97da]" started-at="2024-09-28T19:02:05 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-28T19:02:16 IST" duration-ms="10957" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@52d239ba]" started-at="2024-10-01T19:53:11 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-10-01T19:53:21 IST" duration-ms="10805" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,7 +255,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5f7b97da]" started-at="2024-09-28T19:02:16 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-28T19:02:18 IST" duration-ms="1827" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@52d239ba]" started-at="2024-10-01T19:53:21 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-10-01T19:53:23 IST" duration-ms="1590" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -228,7 +276,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDDT@5f7b97da]" started-at="2024-09-28T19:02:18 IST" name="tearDown" finished-at="2024-09-28T19:02:19 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDDT@52d239ba]" started-at="2024-10-01T19:53:23 IST" name="tearDown" finished-at="2024-10-01T19:53:23 IST" duration-ms="428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

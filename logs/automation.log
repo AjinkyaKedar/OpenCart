@@ -1,46 +1,14 @@
-13:25:56.888 [main] INFO  org.testng.internal.Utils [TestNG] Running:
-  C:\Selenium_Auto\OpenCartV121\master.xml
-
-13:26:00.929 [main] INFO  testCases.TC_002_LoginTest Starting TC_002_LoginTest
-13:26:01.295 [main] INFO  testCases.TC_002_LoginTest Entering valid email and password..
-13:26:02.018 [main] INFO  testCases.TC_002_LoginTest clicked on login button..
-13:26:02.056 [main] INFO  testCases.TC_002_LoginTest  Finished TC_002_LoginTest
-13:26:05.618 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-13:26:07.001 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
-13:26:07.008 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-13:26:08.753 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-13:26:10.417 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-13:26:21.283 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
-13:26:21.286 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-13:26:22.663 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
-13:36:36.231 [main] INFO  org.testng.internal.Utils [TestNG] Running:
-  C:\Selenium_Auto\OpenCartV121\final.xml
-
-13:36:39.275 [main] INFO  testCases.TC_001_AccountRegistrationTest Strating TC_001_AccountRegistrationtTest
-13:36:39.595 [main] INFO  testCases.TC_001_AccountRegistrationTest Clicked on My Account 
-13:36:40.019 [main] INFO  testCases.TC_001_AccountRegistrationTest Clicked on Register 
-13:36:40.136 [main] INFO  testCases.TC_001_AccountRegistrationTest Provided First Name 
-13:36:40.201 [main] INFO  testCases.TC_001_AccountRegistrationTest Provided Last Name 
-13:36:40.262 [main] INFO  testCases.TC_001_AccountRegistrationTest Provided Email 
-13:36:40.316 [main] INFO  testCases.TC_001_AccountRegistrationTest Provided Telephone 
-13:36:40.367 [main] INFO  testCases.TC_001_AccountRegistrationTest Provided Password 
-13:36:40.419 [main] INFO  testCases.TC_001_AccountRegistrationTest Provided Confrmed Password 
-13:36:40.466 [main] INFO  testCases.TC_001_AccountRegistrationTest Set Privacy Policy 
-13:36:40.989 [main] INFO  testCases.TC_001_AccountRegistrationTest Clicked on Continue 
-13:36:43.036 [main] INFO  testCases.TC_001_AccountRegistrationTest Finished TC_001_AccountRegistrationtTest
-13:36:45.646 [main] INFO  testCases.TC_002_LoginTest Starting TC_002_LoginTest
-13:36:46.201 [main] INFO  testCases.TC_002_LoginTest Entering valid email and password..
-13:36:46.870 [main] INFO  testCases.TC_002_LoginTest clicked on login button..
-13:36:46.936 [main] INFO  testCases.TC_002_LoginTest  Finished TC_002_LoginTest
-19:01:54.535 [main] INFO  testCases.TC_002_LoginTest Starting TC_002_LoginTest
-19:01:55.106 [main] INFO  testCases.TC_002_LoginTest Entering valid email and password..
-19:01:55.703 [main] INFO  testCases.TC_002_LoginTest clicked on login button..
-19:01:55.759 [main] INFO  testCases.TC_002_LoginTest  Finished TC_002_LoginTest
-19:02:00.613 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-19:02:02.270 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
-19:02:02.275 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-19:02:04.094 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-19:02:05.965 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-19:02:16.922 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
-19:02:16.930 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
-19:02:18.749 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
+19:53:01.797 [main] INFO  testCases.TC_002_LoginTest clicked on login button..
+19:53:01.845 [main] INFO  testCases.TC_002_LoginTest  Finished TC_002_LoginTest
+19:53:05.818 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
+19:53:07.397 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
+19:53:07.400 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
+19:53:09.229 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
+19:53:11.047 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
+19:53:21.852 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
+19:53:21.852 [main] INFO  testCases.TC_003_LoginDDT **** Starting TC_003_LoginDDT *****
+19:53:23.442 [main] INFO  testCases.TC_003_LoginDDT **** Finished TC_003_LoginDDT *****
+19:53:27.298 [main] INFO  testCases.TC_004_SearchProductTest  Starting TC_004_SearchProductTest 
+19:53:27.832 [main] INFO  testCases.TC_004_SearchProductTest  Finished TC_004_SearchProductTest 
+19:53:29.980 [main] INFO  testCases.TC_005_AddToCartPageTest  Starting TC_005_AddToCartPageTest 
+19:53:31.241 [main] INFO  testCases.TC_005_AddToCartPageTest  Finished TC_004_SearchProductTest 
