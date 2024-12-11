@@ -12,3 +12,6 @@
 19:53:27.832 [main] INFO  testCases.TC_004_SearchProductTest  Finished TC_004_SearchProductTest 
 19:53:29.980 [main] INFO  testCases.TC_005_AddToCartPageTest  Starting TC_005_AddToCartPageTest 
 19:53:31.241 [main] INFO  testCases.TC_005_AddToCartPageTest  Finished TC_004_SearchProductTest 
+14:25:06.513 [main] INFO  org.testng.internal.Utils [TestNG] Running:
+  C:\Selenium_Auto\OpenCartV121\master.xml
+
