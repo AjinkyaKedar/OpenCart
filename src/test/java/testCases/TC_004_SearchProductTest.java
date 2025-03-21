@@ -23,7 +23,7 @@ public class TC_004_SearchProductTest extends BaseClass {
 			hm.clickSearch();
 			
 			SearchPage sp=new SearchPage(driver);
-			sp.isProductExist("MacBook");
+			sp.isProductExist("MacBooks");
 
 			Assert.assertEquals(sp.isProductExist("MacBook"),true);
 

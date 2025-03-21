@@ -24,10 +24,10 @@ public class TC_001_AccountRegistrationTest extends BaseClass
 			AccountRegistrationPage regpage = new AccountRegistrationPage(driver);
 			
 			regpage.setFirstName(randomeString().toUpperCase());
-			logger.info("Provided First Name ");
+			logger.info("Provide First Name ");
 
 			regpage.setLastName(randomeString().toUpperCase());
-			logger.info("Provided Last Name ");
+			logger.info("Provide Last Name ");
 
 			regpage.setEmail(randomeString() + "@gmail.com");// randomly generated the email
 			//regpage.setEmail("pavannoltraining@gmail.com");// duplicate email should fail test case
